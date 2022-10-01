@@ -229,13 +229,13 @@ function createEventButtonDarkMode(){
             localStorage.darkMode = "false"
             darkModeBody()
             darkModeCards()
-            imgBtnDarkMode.src = "/assets/img/moon.svg"
+            imgBtnDarkMode.src = "assets/img/moon.svg"
             btnDarkMode.classList.toggle("btn-activate-darkMmode-dark-mode")  
         } else{
             localStorage.darkMode = "true"
             darkModeBody()
             darkModeCards()
-            imgBtnDarkMode.src = "/assets/img/sun.svg"
+            imgBtnDarkMode.src = "assets/img/sun.svg"
             btnDarkMode.classList.toggle("btn-activate-darkMmode-dark-mode") 
         }
     })
@@ -248,12 +248,12 @@ function controlLocalStorage(){
 
     if (localStorage.darkMode === "true"){
         darkModeBody()
-         imgBtnDarkMode.src = "/assets/img/sun.svg"
+         imgBtnDarkMode.src = "assets/img/sun.svg"
          btnDarkMode.classList.toggle("btn-activate-darkMmode-dark-mode") 
     } else{
 
         localStorage.darkMode = "false"
-        imgBtnDarkMode.src = "/assets/img/moon.svg"
+        imgBtnDarkMode.src = "assets/img/moon.svg"
     
     }
 
