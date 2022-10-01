@@ -31,11 +31,12 @@
   --container: 45rem;
 }
 
-body {
+.body {
   font-family: "Inter", sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   background-color: var(--color-grey-9);
+  
 }
 
 .container {
@@ -43,4 +44,12 @@ body {
   max-width: 100%;
   padding: 0 1rem;
   margin: 0 auto;
+}
+
+/* ==========================Dark MODE=========================================*/
+
+.body-dark-mode {
+
+  background-color: var(--color-grey-0);
+  
 }

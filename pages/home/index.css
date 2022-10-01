@@ -1,1 +1,58 @@
 /* Desenvolva sua estilização aqui ... */
+.navbar{
+    margin-top: 50px;
+}
+
+    .navbar-logo{
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+    }
+/* ============================================================= */
+.section-filters{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+/* ============================================================= */
+
+.box-musical-genres{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+row-gap: 30px;
+}
+
+/* ============================================================= */
+.section-set-price{
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.value-filter-price{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+/* ============================================================= */
+
+.section-found-albums{
+    margin-top: 60px;
+    
+}
+
+
+
+/* ============================================================= */
+/* Globais */
+
+.sections-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* ==========================Dark MODE=========================================*/

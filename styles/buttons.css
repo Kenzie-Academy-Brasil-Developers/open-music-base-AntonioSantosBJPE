@@ -1,0 +1,67 @@
+.btn-standard{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    padding: 16px 8px;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 0px;
+    border-radius: var(--radius-1);
+    
+}
+
+.btn-standard:hover , .btn-standard:focus{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    cursor: pointer;
+    border: 1px solid var(--color-grey-1);
+}
+
+.btn-activate-darkMmode{
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius-1);
+    background-color: var(--color-grey-8);
+    border: none;
+}
+
+.btn-activate-darkMmode:hover{
+    cursor: pointer;
+    background-color: var(--color-grey-6);
+}
+
+/* ==========================Dark MODE=========================================*/
+
+.btn-standard-dark-mode{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-3);
+    border: 1px solid var(--color-grey-1);
+}
+
+.btn-standard-dark-mode:hover , .btn-standard-dark-mode:focus{
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-9);
+    cursor: pointer;
+    border: 1px solid var(--color-grey-9);
+}
+
+.btn-buy-dark-mode{
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-5);
+    border: 1px solid var(--color-grey-2);
+}
+
+.btn-buy-dark-mode:hover{
+    color: var(--color-grey-6);
+    cursor: pointer;
+    border: 1px solid var(--color-grey-9);
+}
+
+.btn-activate-darkMmode-dark-mode{
+    background-color: var(--color-grey-1);
+}
+
+.btn-activate-darkMmode-dark-mode:hover{
+    cursor: pointer;
+    background-color: var(--color-grey-2);
+}
